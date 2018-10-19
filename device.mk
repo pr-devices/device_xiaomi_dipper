@@ -65,3 +65,7 @@ PRODUCT_PACKAGES += \
     NQNfcNci \
     SecureElement \
     Tag
+
+# Wallpapers
+PRODUCT_PACKAGES += \
+    WallpapersBReel2018
