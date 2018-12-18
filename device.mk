@@ -20,6 +20,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
+# Playground
+PRODUCT_PACKAGES += \
+  Playground
+
 # Properties
 -include $(LOCAL_PATH)/device-props.mk
 
