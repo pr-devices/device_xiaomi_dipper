@@ -57,11 +57,15 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     com.nxp.nfc.nq \
+    libnqnfc-nci \
     nqnfcee_access.xml \
     nqnfcse_access.xml \
     NQNfcNci \
     SecureElement \
     Tag
+
+PRODUCT_COPY_FILES += \
+     $(LOCAL_PATH)/nfc/libnfc-nci.conf:system/etc/libnfc-nci.conf
 
 # Wallpapers
 PRODUCT_PACKAGES += \
