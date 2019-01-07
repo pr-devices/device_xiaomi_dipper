@@ -691,6 +691,9 @@
     <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. -->
     <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
 
+    <!-- Specify custom blanking delay of the display -->
+    <integer name="config_screen_off_delay">0</integer>
+
     <!-- Whether to show battery percentage inside icon -->
     <bool name="config_battery_percentage_show_inside_icon">true</bool>
 
