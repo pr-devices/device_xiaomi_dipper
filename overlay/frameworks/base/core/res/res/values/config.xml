@@ -207,8 +207,8 @@
          during initialization when the setting is still null. -->
     <bool name="config_dozeAlwaysOnEnabled">false</bool>
 
-    <!-- Whether or not we should show the option to show battery percentage -->
-    <bool name="config_battery_percentage_setting_available">false</bool>
+    <!-- Whether to show battery percentage inside icon -->
+    <bool name="config_battery_percentage_show_inside_icon">true</bool>
 
     <!-- Do the battery/notification LEDs support pulsing?
          Used to decide if we show pulse settings -->
