@@ -701,11 +701,6 @@
     <!-- Enable dual LTE capability support-->
     <bool name="config_dual_LTE_capability">true</bool>
 
-    <!-- Screen brightness used to dim the screen while dozing in a very low power state.
-         May be less than the minimum allowed brightness setting
-         that can be set by the user. -->
-    <integer name="config_screenBrightnessDoze">4</integer>
-
     <!-- Vibration -->
     <integer-array name="config_longPressVibePattern">
         <item>0</item>
