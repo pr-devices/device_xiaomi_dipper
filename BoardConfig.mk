@@ -40,7 +40,3 @@ TARGET_USES_NQ_NFC := true
 
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
-
-# Vendor init
-TARGET_INIT_VENDOR_LIB := libinit_dipper
-TARGET_RECOVERY_DEVICE_MODULES := libinit_dipper
